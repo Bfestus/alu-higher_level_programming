@@ -4,4 +4,4 @@ def number_keys(a_dictionary):
     for key in a_dictionary:
         key_list.append(key)
     key_sum = len(key_list)
-    print("{:d}".format(key_sum))
+    return key_sum
