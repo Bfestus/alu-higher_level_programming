@@ -12,7 +12,7 @@ class Square:
             raise ValueError("size must be >= 0")
         """ creating the instance attribute size"""
         self.__size = size
-    """creating public instance method are """    
+    """creating public instance method are """
     def area(self):
         """returning the square of size"""
         return self.__size ** 2
