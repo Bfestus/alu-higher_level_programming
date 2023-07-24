@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+""" creating a class square."""
+class Square:
+    """initializing the class"""
+    def __init__(self, size=0):
+        """creating the exceptions"""
+        if not isinstances(size, int):
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
+        """ creating the instance attribute size"""
+        self.__size = size
