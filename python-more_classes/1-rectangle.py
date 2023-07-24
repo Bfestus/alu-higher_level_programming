@@ -14,6 +14,7 @@ class Rectangle:
     """defining a setter, width"""
     @width.setter
     def width(self, value):
+       """using if condition"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         elif value < 0:
