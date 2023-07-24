@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-""" creating the empty class"""
+""" creating  a class Rectangle that defines a rectangle"""
 
 
 class Rectangle:
-    """defining rectange"""
+    """ defining the class rectangle"""
     def __init__(self, width=0, height=0):
+        """width = width of rectangle
+           height = height of rectangle"""
+
         self.width = width
         self.height = height
     """defining a getter, width"""
