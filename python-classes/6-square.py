@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""define a class square """
 class Square:
 
 
@@ -8,12 +9,12 @@ class Square:
         """Initialize a new square."""
         self.size = size
         self.position = position
-
+    """defining size  getter"""
     @property
     def size(self):
         """To get the size"""
         return self.__size
-
+    """defining a size setter"""
     @size.setter
     def size(self, value):
         """To set the size"""
@@ -22,12 +23,12 @@ class Square:
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-
+    """ defining a position getter"""
     @property
     def position(self):
         """To get the position"""
         return self.__position
-
+    """" defining a position setter"""
     @position.setter
     def position(self, value):
         """To set the position"""
