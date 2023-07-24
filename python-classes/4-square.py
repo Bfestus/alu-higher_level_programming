@@ -1,26 +1,24 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
-"""Define a class Square."""
-
-
+"""Define a class"""
 class Square:
     """Represent a square."""
+
     def __init__(self, size=0):
-        """ Initialize a new square."""
+        """Initialize a new square."""
         self.size = size
-    """To define a getter, you can use the @property."""
+
     @property
     def size(self):
-        """to get the size"""
-        return(self.__size)
-    """define the setter"""
+        """To get the size"""
+        return self.__size
+
     @size.setter
     def size(self, value):
-        if isinstance(value, int):
+        if not isinstance(value, int):
             raise TypeError("size must be an integer")
-        elif size < 0:
+        elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-    """ returning the square area"""    
+
     def area(self):
-        return self.__size ** 2
+        return self.__size ** 2    
