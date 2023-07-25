@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Rectangle Module"""
 
+
+
 class Rectangle:
     """Class representing a Rectangle."""
 
@@ -78,4 +80,3 @@ class Rectangle:
             return ""
         else:
             return "\n".join(["#" * self.width] * self.height)
-
