@@ -2,9 +2,6 @@
 """Rectangle Module"""
 
 
-number_of_instances = 0
-
-
 class Rectangle:
     """
     Class representing a Rectangle.
@@ -13,6 +10,7 @@ class Rectangle:
         width (int): The width of the rectangle.
         height (int): The height of the rectangle.
     """
+    Rectangle.number_of_instances += 1
 
     def __init__(self, width=0, height=0):
         """Initialize the Rectangle with optional width and height."""
@@ -70,6 +68,6 @@ class Rectangle:
 
     def __del__(self):
         """Print a farewell message when an instance of Rectangle is deleted."""
-        number_of_instances -= 1
+        Rectangle.number_of_instances -= 1
         print("bye rectangle...")
 
