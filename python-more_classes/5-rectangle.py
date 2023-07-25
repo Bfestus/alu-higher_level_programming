@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Rectangle Module"""
+"""documenting Rectangle Module."""
 
 
 class Rectangle:
@@ -24,7 +24,7 @@ class Rectangle:
     def width(self, value):
         """Set the width of the rectangle.
 
-        Args:
+        Arguments:
             value (int): The width value to set.
         """
         if not isinstance(value, int):
@@ -42,7 +42,7 @@ class Rectangle:
     def height(self, value):
         """Set the height of the rectangle.
 
-        Args:
+        Arguments:
             value (int): The height value to set.
         """
         if not isinstance(value, int):
