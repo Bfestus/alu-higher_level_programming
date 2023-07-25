@@ -2,7 +2,6 @@
 """Rectangle Module"""
 
 
-
 class Rectangle:
     """Class representing a Rectangle."""
 
