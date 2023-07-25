@@ -13,8 +13,8 @@ class Rectangle:
     Attributes:
         width (int): The width of the rectangle.
         height (int): The height of the rectangle.
-        number_of_instances (int): Class attribute to keep track of the number of Rectangle instances.
-        print_symbol: Symbol used for string representation of the rectangle (can be any type).
+        num_instances (int): to keep track of number is instances 
+        print_symbol: Symbol used for string representation of the rectangle.
     """
 
     number_of_instances = 0
@@ -24,9 +24,9 @@ class Rectangle:
         """
         Initialize the Rectangle with optional width and height.
 
-        Args:
+        Arguments:
             width (int, optional): The width of the rectangle. Defaults to 0.
-            height (int, optional): The height of the rectangle. Defaults to 0.
+            height (int, opti.): The height of the rectangle. Defaults to 0.
         """
         self.width = width
         self.height = height
