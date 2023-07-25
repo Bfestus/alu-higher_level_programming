@@ -86,4 +86,4 @@ class Rectangle:
         Returns:
             str: The string representation of the Rectangle.
         """
-        return f"rectangle(width = {self.width}), (height = {self.health})"
+        return f"rectangle(width = {self.width}), (height = {self.height})"
