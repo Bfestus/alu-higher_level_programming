@@ -3,16 +3,16 @@
 
 
 class Rectangle:
-
     """Class representing a Rectangle."""
 
-    Rectangle.number_of_instances = 0
+    number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         """Initialize the Rectangle with optional width and height."""
         self.width = width
         self.height = height
-        number_of_instances += 1
+        Rectangle.number_of_instances += 1
+
     @property
     def width(self):
         """Get the width of the rectangle."""
@@ -55,8 +55,7 @@ class Rectangle:
         """Return a string representation of the Rectangle."""
         if self.width == 0 or self.height == 0:
             return ""
-        else:
-            return "\n".join(["#" * self.width] * self.height)
+        return "\n".join(["#" * self.width] * self.height)
 
     def __repr__(self):
         """Return a string representation of the Rectangle."""
@@ -65,5 +64,4 @@ class Rectangle:
     def __del__(self):
         """Print a farewell message when an instance of Rectangle is deleted."""
         Rectangle.number_of_instances -= 1
-        print("bye rectangle...")
-
+        print("Bye rectangle...")
