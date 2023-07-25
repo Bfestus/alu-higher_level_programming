@@ -5,6 +5,7 @@ Rectangle Module
 This module defines the Rectangle class.
 """
 
+
 class Rectangle:
     """
     Class representing a Rectangle.
