@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-class MyList(list):
+""" contain the Mylist class"""
+
+
+class Mylist(list):
+    """a subclass of list"""
     def print_sorted(self):
-        sorted_list = self._sort_ascending()
-        for element in sorted_list:
-            print(element, end=' ')
-        print()
+        """ prints sorted lists"""
+        sort_list = sorted(self)
+        print(sort_list)
