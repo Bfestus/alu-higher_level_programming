@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" definition of a class """
+"""
+This module contains the function is_same_class
+"""
 
 
 def inherits_from(obj, a_class):
