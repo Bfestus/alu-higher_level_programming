@@ -1,24 +1,16 @@
 #!/usr/bin/python3
 """
-Module: file_reader
-Description: A module to read and print the content of a text file.
+Module for read_file method.
 """
 
 
 def read_file(filename=""):
     """
-    Read and print the content of the specified text file.
-
-    Parameters:
-        filename (str): The name of the file to be read.
-
-    Returns:
-        None
+    Reads text file and prints to STDOUT
     """
-    if not filename:
-        print("Error: No filename provided.")
-        return
-    
-    with open(filename, 'r', encoding='utf-8') as file:
-        content = file.read()
-        print(content)
+    with open(filename, 'r', encoding="UTF-8") as file:
+        """
+        reading the contend
+        """
+        for content in file:
+            print(content, end="")
