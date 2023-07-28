@@ -2,6 +2,8 @@
 """
 Module for Write_file method.
 """
+
+
 def write_file(filename="", text=""):
     """
     Write a string to the text file
