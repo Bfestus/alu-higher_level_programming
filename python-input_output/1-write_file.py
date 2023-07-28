@@ -10,5 +10,5 @@ def write_file(filename="", text=""):
         """
         Writing the a string to  text file
         """
-        text = file.write()
+        text = file.write(filename)
         return text
