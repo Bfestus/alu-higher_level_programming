@@ -12,11 +12,9 @@ def matrix_divided(matrix, div):
         div (int or float): The divisor.
     """
     # Check if matrix is a list of lists of integers/floats
-    if not (type(matrix) == list) or not all(type(row) == list 
-    for row in matrix) or \
+    if not (type(matrix) == list) or not all(type(row) == list for row in matrix) or \
        not all(type(num) in (int, float) for row in matrix for num in row):
-        raise TypeError("matrix must be a matrix (list of lists) 
-                of integers/floats")
+        raise TypeError("matrix must be a matrix (list of lists)of integers/floats")
 
     # Check if each row of the matrix has the same size
     row_lengths = set(len(row) for row in matrix)
