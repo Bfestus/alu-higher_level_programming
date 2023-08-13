@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-""" Module of indentation
+"""
+    Module containing text indentation function
 """
 
 
 def text_indentation(text):
-     """ Text indentation function
+    """ Text indentation function
 
     Arguments:
         text (str): A string of text
