@@ -8,4 +8,8 @@ if (args === 0){
     console.log('Argument found');
 } else{
     console.log('Argument found');
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2c186b2b877209ab97c483ff71065f642a284d14

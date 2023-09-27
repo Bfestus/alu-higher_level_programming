@@ -26,4 +26,8 @@ function computeFactorial(n) {
   // Call the computeFactorial function and print the result
   const factorial = computeFactorial(input);
   console.log(`Factorial of ${input} is ${factorial}`);
+<<<<<<< HEAD
   
+=======
+  
+>>>>>>> 2c186b2b877209ab97c483ff71065f642a284d14
