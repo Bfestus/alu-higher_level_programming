@@ -6,7 +6,3 @@ function add (a, b) {
 module.exports = {
   add
 };
-function add(a + b){
-    a + b;
-}
-console.log(a, b);
