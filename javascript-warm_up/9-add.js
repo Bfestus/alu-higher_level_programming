@@ -10,8 +10,4 @@ if (isNaN(arg1) || isNaN(arg2)) {
 } else {
     const result = add(arg1, arg2);
     console.log(result);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2c186b2b877209ab97c483ff71065f642a284d14
